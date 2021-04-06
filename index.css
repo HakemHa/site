@@ -15,12 +15,16 @@ a {
 a:visited,a:link {
   color:black;
 }
-a:hover {
-  color:blue;
+#languages a:hover {
+  color:red;
   text-decoration: underline;
 }
-a:active {
-  color:gold;
+#science a:hover {
+  color:yellow;
+  text-decoration: underline;
+}
+#languages a:active,#science a:active {
+  color:blue;
 }
 p {
   font-size:130%;
@@ -49,9 +53,11 @@ div img {
   margin-bottom: 30px;
 }
 #mainButton {
+  width: 50%;
+}
+#mainDiv {
   position: relative;
-  left: 420%;
-  width: 30%;
+  left: 90%;
 }
 #mainDiv a {
   position: fixed;

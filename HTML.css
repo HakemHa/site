@@ -8,6 +8,9 @@ tr {
   padding:20px;
   background-color: green;
 }
+h6 {
+  text-align: center;
+}
 th.tableTitle {
   padding: 10px;
   border-left: 5px solid black;
@@ -16,7 +19,7 @@ th.tableTitle {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-th.tagName {
+th.tagName,th.tagAttribute {
   padding: 10px;
   border-left: 5px solid black;
   border-top: 5px solid black;
@@ -32,7 +35,9 @@ th.tagDescription {
   border-bottom-right-radius: 10px;
   margin-left: 0;
 }
-
+th.tagAttribute {
+  color: #FFFFFF;
+}
 /* small device */
 
 @media (max-width:992px) {
