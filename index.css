@@ -1,0 +1,76 @@
+* {
+
+}
+body{
+  background-color: #9AF2FF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+h1,h2,h3 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:visited,a:link {
+  color:black;
+}
+a:hover {
+  color:blue;
+  text-decoration: underline;
+}
+a:active {
+  color:gold;
+}
+p {
+  font-size:130%;
+}
+div li {
+  font-size:150%;
+}
+div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.subTitle {
+  color: #F6DC35;
+}
+.tagName {
+  font-size: 15px;
+}
+.return {
+  text-align: center;
+  text-decoration-color: black;
+}
+#mainTitle {
+  color: green;
+  margin-bottom: 30px;
+}
+#mainButton {
+  position: relative;
+  left: 420%;
+  width: 30%;
+}
+#mainDiv a {
+  position: fixed;
+}
+#languages {
+  padding: 20px;
+  background-color: green;
+  margin-bottom: 10px;
+  border-left: 20px solid gold;
+}
+#science {
+  padding: 20px;
+  background-color: purple;
+  margin-bottom: 10px;
+  border-left: 20px solid gold;
+}
+#mySelf {
+  margin: 30px;
+}
+#mySelf h3 {
+  font-size:130%;
+}
