@@ -38,6 +38,9 @@ div img {
   margin-right: auto;
   width: 30%;
 }
+footer {
+  text-align: center;
+}
 .subTitle {
   color: #F6DC35;
 }
